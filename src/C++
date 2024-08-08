@@ -1,0 +1,21 @@
+#include<iostream.h>
+#include<conio.h>
+class Integer 
+{
+    private:
+    int x;
+    public:
+    void setData(int a)
+    {x=a;}
+    void showData()
+    {cout<<"x="<<x;}
+};
+void main()
+{
+    clrscr();
+    Integer i1;
+    i1.setData(3);
+    i1.showData();
+    getch();
+    
+}
